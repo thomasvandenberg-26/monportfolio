@@ -1,7 +1,8 @@
+@charset "UTF-8";
+/*# sourceMappingURL=index.css.map */
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
@@ -13,7 +14,6 @@ body {
   background-color: #121212;
   margin-top: 1%;
 }
-
 body #a_propos {
   margin-left: 15%;
   margin-top: 3%;
@@ -25,7 +25,6 @@ body #a_propos {
   opacity: 70%;
   border-radius: 15%;
 }
-
 body #a_propos h2 {
   text-align: center;
   font-family: "Source Code Pro";
@@ -34,41 +33,31 @@ body #a_propos h2 {
   color: #A5FFC9;
   margin-bottom: 8%;
 }
-
-body #a_propos #bio
-p {
+body #a_propos #bio p {
   margin-top: 3%;
   color: #EDEDED;
   font-weight: bold;
   font-size: 18px;
   text-align: center;
 }
-
 body #a_propos #qualites {
   margin-left: 3%;
 }
-
 body #a_propos #qualites p {
   text-align: center;
 }
-
 body #row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 body #row #column1 {
   max-width: 30px;
   text-align: left;
 }
-
 body #row #column2 {
   float: 40%;
   text-align: right;
   padding: 50px;
 }
-
 body #langages {
   position: absolute;
   width: 40%;
@@ -82,7 +71,6 @@ body #langages {
   margin-left: 5%;
   margin-top: 8%;
 }
-
 .stage1 .Louty {
   position: absolute;
   width: 40%;
@@ -92,7 +80,6 @@ body #langages {
   height: 60%;
   opacity: 70%;
 }
-
 .stage1 .Louty h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
@@ -100,7 +87,6 @@ body #langages {
   margin-top: 3%;
   text-align: center;
 }
-
 .stage1 .Louty p {
   font-family: "Roboto";
   font-size: 28px;
@@ -109,7 +95,6 @@ body #langages {
   margin-top: 2%;
   margin-left: 4%;
 }
-
 .stage1 .Louty ul {
   font-family: "Roboto";
   font-size: 28px;
@@ -118,15 +103,13 @@ body #langages {
   margin-top: 15px;
   list-style-type: none;
 }
-
 .stage1 .Louty ul li:before {
-  content: "\2022";
+  content: "•";
   color: #A5FFC9;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
-
 .stage1 .myprojectLouty {
   width: 40%;
   position: absolute;
@@ -136,35 +119,29 @@ body #langages {
   padding: 10px;
   opacity: 72%;
 }
-
 .stage1 .myprojectLouty h1 {
   margin-top: 3%;
 }
-
 .stage1 .myprojectLouty .Mission {
   margin-left: 3%;
   margin-top: 3%;
   margin-bottom: 3%;
   font-size: 26px;
 }
-
 .stage1 .myprojectLouty .Mission h2 {
   font-family: "Source Code Pro";
   font-size: 30px;
   color: #EDEDED;
   text-align: left;
 }
-
 .stage1 .myprojectLouty .Mission ul {
   margin: 3%;
 }
-
 .stage1 .myprojectLouty .Mission ul li {
   margin-top: 1%;
   color: #121212;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
-
 .stage1 .myprojectLouty .Mission .competences {
   font-family: "Roboto";
   font-size: 28px;
@@ -172,7 +149,6 @@ body #langages {
   font-weight: bold;
   margin-top: 3%;
 }
-
 .stage1 .myprojectLouty .Mission .competences p {
   margin-top: 3%;
   margin-bottom: 3%;
@@ -188,13 +164,20 @@ body #langages {
   height: 60%;
   opacity: 70%;
 }
-
 #GPA h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
   color: #A5FFC9;
   margin-top: 3%;
   text-align: center;
+}
+#GPA p {
+  font-family: "Roboto";
+  font-size: 28px;
+  color: #EDEDED;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 4%;
 }
 
 #myprojectGPA {
@@ -208,7 +191,6 @@ body #langages {
   padding: 10px;
   opacity: 72%;
 }
-
 #myprojectGPA h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
@@ -228,35 +210,30 @@ body #langages {
   opacity: 70%;
   border-radius: 15%;
 }
-
 #gedimagination #jeu {
   margin-top: 20%;
 }
-
 #gedimagination #jeu p {
   margin-bottom: 3%;
 }
-
 #gedimagination #jeu h2 {
   color: #A5FFC9;
   font-size: 50px;
-  font-family: 'Source Code Pro';
+  font-family: "Source Code Pro";
   font-weight: bold;
   text-align: center;
   margin-bottom: 4%;
 }
-
 #gedimagination #jeu h3 {
   color: #EDEDED;
-  font-family: 'Source Code Pro';
+  font-family: "Source Code Pro";
   font-weight: bold;
   text-align: center;
   margin-bottom: 7%;
 }
-
 #gedimagination #jeu p {
   color: #121212;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   text-align: center;
 }
 
@@ -271,18 +248,16 @@ body #langages {
   opacity: 70%;
   border-radius: 15%;
 }
-
 #Contact h2 {
   text-align: center;
   color: #A5FFC9;
-  font-family: 'Hammersmith One';
+  font-family: "Hammersmith One";
   font-size: 32px;
 }
-
 #Contact p {
   text-align: center;
   color: #121212;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   margin-top: 2%;
 }
 
@@ -297,34 +272,20 @@ body #langages {
   font-weight: bold;
   background-color: #a5ffc9;
   padding: 10px 30px;
-  border: solid #00000000 2px;
-  -webkit-box-shadow: black 0px 0px 0px 0px;
+  border: solid rgba(0, 0, 0, 0) 2px;
   box-shadow: black 0px 0px 0px 0px;
   border-radius: 50px;
-  -webkit-transition: 700ms;
   transition: 700ms;
-  -webkit-transform: translateY(0);
   transform: translateY(0);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
 }
-
 .btn:hover {
-  -webkit-transition: 1000ms;
   transition: 1000ms;
   padding: 10px 50px;
-  -webkit-transform: translateY(0px);
   transform: translateY(0px);
   background-color: #0085B2;
   color: #EDEDED;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
