@@ -164,6 +164,11 @@ body #langages {
   height: 60%;
   opacity: 70%;
 }
+#GPA img {
+  width: 10%;
+  margin-left: 3%;
+  margin-top: 1, 5%;
+}
 #GPA h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
@@ -173,7 +178,7 @@ body #langages {
 }
 #GPA p {
   font-family: "Roboto";
-  font-size: 28px;
+  font-size: 22px;
   color: #EDEDED;
   font-weight: bold;
   margin-top: 2%;
@@ -195,8 +200,27 @@ body #langages {
   font-family: "Hammersmith One";
   font-size: 64px;
   color: #A5FFC9;
+  text-align: center;
+  font-size: 50px;
+}
+#myprojectGPA img {
+  width: 20%;
+  margin: 5%;
+}
+#myprojectGPA h3 {
+  font-family: "Hammersmith One";
   margin-top: 3%;
   text-align: center;
+  color: #A5FFC9;
+  font-size: 30px;
+}
+#myprojectGPA p {
+  font-family: "Roboto";
+  font-size: 22px;
+  color: #EDEDED;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 4%;
 }
 
 #gedimagination {
