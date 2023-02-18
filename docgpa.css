@@ -1,0 +1,62 @@
+body {
+  width: 100%;
+  background-color: #0085B2;
+}
+
+#logogpa img {
+  width: 13%;
+  margin-left: 45%;
+  margin-top: 3%;
+}
+
+#liendiag {
+  margin-top: 3%;
+  width: 100%;
+  text-align: center;
+}
+
+#liendiag a {
+  color: #EDEDED;
+}
+
+#fenetre {
+  margin-top: 3%;
+}
+
+#fenetre #zr {
+  position: absolute;
+}
+
+#fenetre #zr img {
+  width: 50%;
+  height: 5%;
+  margin-top: 8%;
+  margin-left: 100%;
+}
+
+#fenetre #recherche img {
+  width: 15%;
+  height: 5%;
+  margin-top: 3%;
+  margin-left: 60%;
+}
+
+#schema {
+  margin-top: 12%;
+  width: 100%;
+  text-align: center;
+}
+
+#schema a {
+  color: #EDEDED;
+}
+
+#schema2 {
+  margin-top: 5%;
+}
+
+#schema2 img {
+  width: 40%;
+  margin-left: 45%;
+}
+/*# sourceMappingURL=docgpa.css.map */

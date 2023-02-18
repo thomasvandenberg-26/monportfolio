@@ -78,12 +78,12 @@ body #langages {
   background-color: #0085B2;
 }
 
-.stage1 {
+#stage1 {
   margin-left: 5%;
   margin-top: 8%;
 }
 
-.stage1 .Louty {
+#stage1 .Louty {
   position: absolute;
   width: 40%;
   border-radius: 10%;
@@ -93,7 +93,7 @@ body #langages {
   opacity: 70%;
 }
 
-.stage1 .Louty h2 {
+#stage1 .Louty h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
   color: #A5FFC9;
@@ -101,7 +101,7 @@ body #langages {
   text-align: center;
 }
 
-.stage1 .Louty p {
+#stage1 .Louty p {
   font-family: "Roboto";
   font-size: 28px;
   color: #EDEDED;
@@ -110,7 +110,7 @@ body #langages {
   margin-left: 4%;
 }
 
-.stage1 .Louty ul {
+#stage1 .Louty ul {
   font-family: "Roboto";
   font-size: 28px;
   color: #EDEDED;
@@ -119,7 +119,7 @@ body #langages {
   list-style-type: none;
 }
 
-.stage1 .Louty ul li:before {
+#stage1 .Louty ul li:before {
   content: "\2022";
   color: #A5FFC9;
   display: inline-block;
@@ -127,7 +127,7 @@ body #langages {
   margin-left: -1em;
 }
 
-.stage1 .myprojectLouty {
+#stage1 .myprojectLouty {
   width: 40%;
   position: absolute;
   background-color: #0085B2;
@@ -137,36 +137,36 @@ body #langages {
   opacity: 72%;
 }
 
-.stage1 .myprojectLouty h1 {
+#stage1 .myprojectLouty h1 {
   margin-top: 3%;
 }
 
-.stage1 .myprojectLouty .Mission {
+#stage1 .myprojectLouty .Mission {
   margin-left: 3%;
   margin-top: 3%;
   margin-bottom: 3%;
   font-size: 26px;
 }
 
-.stage1 .myprojectLouty .Mission h2 {
+#stage1 .myprojectLouty .Mission h2 {
   font-family: "Source Code Pro";
   font-size: 30px;
   color: #EDEDED;
   text-align: left;
 }
 
-.stage1 .myprojectLouty .Mission ul {
+#stage1 .myprojectLouty .Mission ul {
   margin: 3%;
 }
 
-.stage1 .myprojectLouty .Mission ul li {
+#stage1 .myprojectLouty .Mission ul li {
   font-size: 26px;
   margin-top: 1%;
   color: #121212;
   font-family: 'Roboto';
 }
 
-.stage1 .myprojectLouty .Mission .competences {
+#stage1 .myprojectLouty .Mission .competences {
   font-family: "Roboto";
   font-size: 28px;
   color: #EDEDED;
@@ -174,12 +174,12 @@ body #langages {
   margin-top: 3%;
 }
 
-.stage1 .myprojectLouty .Mission .competences p {
+#stage1 .myprojectLouty .Mission .competences p {
   margin-top: 3%;
   margin-bottom: 3%;
 }
 
-#GPA {
+#stage2 #GPA {
   position: absolute;
   width: 40%;
   border-radius: 10%;
@@ -190,13 +190,13 @@ body #langages {
   opacity: 70%;
 }
 
-#GPA img {
+#stage2 #GPA img {
   width: 10%;
   margin-left: 3%;
   margin-top: 1,5%;
 }
 
-#GPA h2 {
+#stage2 #GPA h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
   color: #A5FFC9;
@@ -204,7 +204,7 @@ body #langages {
   text-align: center;
 }
 
-#GPA p {
+#stage2 #GPA p {
   font-family: "Roboto";
   font-size: 22px;
   color: #EDEDED;
@@ -213,7 +213,7 @@ body #langages {
   margin-left: 4%;
 }
 
-#myprojectGPA {
+#stage2 #myprojectGPA {
   margin-top: 40%;
   margin-left: 55%;
   width: 40%;
@@ -225,7 +225,7 @@ body #langages {
   opacity: 72%;
 }
 
-#myprojectGPA h2 {
+#stage2 #myprojectGPA h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
   color: #A5FFC9;
@@ -233,12 +233,12 @@ body #langages {
   font-size: 40px;
 }
 
-#myprojectGPA img {
+#stage2 #myprojectGPA img {
   width: 20%;
   margin: 5%;
 }
 
-#myprojectGPA h3 {
+#stage2 #myprojectGPA h3 {
   font-family: "Source Code Pro";
   font-size: 30px;
   color: #EDEDED;
@@ -246,18 +246,18 @@ body #langages {
   margin-left: 3%;
 }
 
-#myprojectGPA ul {
+#stage2 #myprojectGPA ul {
   margin: 3%;
 }
 
-#myprojectGPA ul li {
+#stage2 #myprojectGPA ul li {
   font-size: 28px;
   margin-top: 1%;
   color: #121212;
   font-family: 'Roboto';
 }
 
-#myprojectGPA #competencesGpa {
+#stage2 #myprojectGPA #competencesGpa {
   font-family: "Roboto";
   font-size: 28px;
   color: #EDEDED;
@@ -266,7 +266,7 @@ body #langages {
   margin-left: 3%;
 }
 
-#myprojectGPA #competencesGpa p {
+#stage2 #myprojectGPA #competencesGpa p {
   margin-top: 3%;
   margin-bottom: 3%;
 }
@@ -387,7 +387,7 @@ body #langages {
   font-family: Roboto, sans-serif;
   font-weight: 0;
   font-size: 20px;
-  top: 90%;
+  margin-top: 75%;
   left: 49%;
   color: #121212;
   font-weight: bold;

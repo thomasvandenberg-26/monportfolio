@@ -71,7 +71,7 @@ body {
 			background-color: #0085B2;
 		}
 	}
-	.stage1 {
+	#stage1 {
 		margin-left: 5%;
 		margin-top: 8%;
 		.Louty {
@@ -161,6 +161,7 @@ body {
 			}
 		}
 	}
+	#stage2{
 	#GPA {
 		position: absolute;
 		width: 40%;
@@ -244,6 +245,8 @@ body {
 						margin-bottom: 3%;
 			   
 			}
+		}
+		
 		}
 	}
     #gedimagination{
@@ -354,8 +357,7 @@ body {
 		font-family: Roboto, sans-serif;
 		font-weight: 0;
 		font-size: 20px;
-		top: 90%; 
-		// margin-top: 80%;
+		margin-top: 75%;
 		left: 49%;
 		color: #121212;
 		font-weight: bold;
