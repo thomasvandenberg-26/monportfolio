@@ -1,7 +1,8 @@
+@charset "UTF-8";
+
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
@@ -13,90 +14,72 @@ body {
   background-color: #121212;
   margin-top: 1%;
 }
-
 body #a_propos {
-  margin-left: 15%;
+  margin-left: 5%;
   margin-top: 3%;
   background-color: #0085B2;
-  margin-left: 35%;
+  margin-left: 15%;
   margin-top: 2%;
   width: 30%;
   height: 50%;
   opacity: 70%;
   border-radius: 15%;
 }
-
 body #a_propos h2 {
   text-align: center;
   font-family: "Source Code Pro";
   font-size: 30px;
-  color: #EDEDED;
   color: #A5FFC9;
   margin-bottom: 8%;
 }
-
 body #a_propos #bio p {
   margin-top: 3%;
   color: #EDEDED;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 29px;
   text-align: center;
 }
-
 body #a_propos #bio #icones {
   margin-top: 3%;
   margin-left: 25%;
   margin-bottom: 3%;
 }
-
 body #a_propos #bio #icones img {
   width: 13%;
   margin-left: 3%;
 }
-
 body #a_propos #bio #divertissement p {
   color: #EDEDED;
-  font-size: 20px;
+  font-size: 29px;
   margin-top: 5%;
 }
-
-body #a_propos #bio #divertissement #1 {
+body #a_propos #bio #divertissement #test {
   margin-top: 3%;
 }
-
-body #a_propos #bio #divertissement #2 {
+body #a_propos #bio #divertissement #randonnée {
   margin-top: 3%;
 }
-
-body #a_propos #bio #divertissement #3 {
+body #a_propos #bio #divertissement #patisserie {
   margin-top: 3%;
 }
-
 body #a_propos #bio #qualites {
   margin-left: 3%;
 }
-
 body #a_propos #bio #qualites p {
   text-align: center;
 }
-
 body #a_propos #row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 body #a_propos #row #column1 {
   max-width: 30px;
   text-align: left;
 }
-
 body #a_propos #row #column2 {
   float: 40%;
   text-align: right;
   padding: 50px;
 }
-
 body #a_propos #langages {
   position: absolute;
   width: 40%;
@@ -105,12 +88,10 @@ body #a_propos #langages {
   height: 30%;
   background-color: #0085B2;
 }
-
 body #stage1 {
   margin-left: 5%;
   margin-top: 8%;
 }
-
 body #stage1 .Louty {
   position: absolute;
   width: 40%;
@@ -120,7 +101,6 @@ body #stage1 .Louty {
   height: 60%;
   opacity: 70%;
 }
-
 body #stage1 .Louty h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
@@ -128,7 +108,6 @@ body #stage1 .Louty h2 {
   margin-top: 3%;
   text-align: center;
 }
-
 body #stage1 .Louty p {
   font-family: "Roboto";
   font-size: 28px;
@@ -137,7 +116,6 @@ body #stage1 .Louty p {
   margin-top: 2%;
   margin-left: 4%;
 }
-
 body #stage1 .Louty ul {
   font-family: "Roboto";
   font-size: 28px;
@@ -146,15 +124,13 @@ body #stage1 .Louty ul {
   margin-top: 15px;
   list-style-type: none;
 }
-
 body #stage1 .Louty ul li:before {
-  content: "\2022";
+  content: "•";
   color: #A5FFC9;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
-
 body #stage1 .myprojectLouty {
   width: 40%;
   position: absolute;
@@ -164,36 +140,30 @@ body #stage1 .myprojectLouty {
   padding: 10px;
   opacity: 72%;
 }
-
 body #stage1 .myprojectLouty h1 {
   margin-top: 3%;
 }
-
 body #stage1 .myprojectLouty .Mission {
   margin-left: 3%;
   margin-top: 3%;
   margin-bottom: 3%;
   font-size: 26px;
 }
-
 body #stage1 .myprojectLouty .Mission h2 {
   font-family: "Source Code Pro";
   font-size: 30px;
   color: #EDEDED;
   text-align: left;
 }
-
 body #stage1 .myprojectLouty .Mission ul {
   margin: 3%;
 }
-
 body #stage1 .myprojectLouty .Mission ul li {
   font-size: 26px;
   margin-top: 1%;
   color: #121212;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
-
 body #stage1 .myprojectLouty .Mission .competences {
   font-family: "Roboto";
   font-size: 28px;
@@ -201,12 +171,10 @@ body #stage1 .myprojectLouty .Mission .competences {
   font-weight: bold;
   margin-top: 3%;
 }
-
 body #stage1 .myprojectLouty .Mission .competences p {
   margin-top: 3%;
   margin-bottom: 3%;
 }
-
 body #stage2 #GPA {
   position: absolute;
   width: 40%;
@@ -216,13 +184,11 @@ body #stage2 #GPA {
   margin-left: 10%;
   opacity: 70%;
 }
-
 body #stage2 #GPA img {
   width: 10%;
   margin-left: 3%;
-  margin-top: 1,5%;
+  margin-top: 1, 5%;
 }
-
 body #stage2 #GPA h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
@@ -230,7 +196,6 @@ body #stage2 #GPA h2 {
   margin-top: 3%;
   text-align: center;
 }
-
 body #stage2 #GPA p {
   font-family: "Roboto";
   font-size: 22px;
@@ -239,7 +204,6 @@ body #stage2 #GPA p {
   margin-top: 2%;
   margin-left: 4%;
 }
-
 body #stage2 #myprojectGPA {
   margin-top: 40%;
   margin-left: 55%;
@@ -250,7 +214,6 @@ body #stage2 #myprojectGPA {
   padding: 10px;
   opacity: 72%;
 }
-
 body #stage2 #myprojectGPA h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
@@ -258,12 +221,10 @@ body #stage2 #myprojectGPA h2 {
   text-align: center;
   font-size: 40px;
 }
-
 body #stage2 #myprojectGPA img {
   width: 20%;
   margin: 5%;
 }
-
 body #stage2 #myprojectGPA h3 {
   font-family: "Source Code Pro";
   font-size: 30px;
@@ -271,18 +232,15 @@ body #stage2 #myprojectGPA h3 {
   text-align: left;
   margin-left: 3%;
 }
-
 body #stage2 #myprojectGPA ul {
   margin: 3%;
 }
-
 body #stage2 #myprojectGPA ul li {
   font-size: 28px;
   margin-top: 1%;
   color: #121212;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
-
 body #stage2 #myprojectGPA #competencesGpa {
   font-family: "Roboto";
   font-size: 28px;
@@ -291,12 +249,10 @@ body #stage2 #myprojectGPA #competencesGpa {
   margin-top: 3%;
   margin-left: 3%;
 }
-
 body #stage2 #myprojectGPA #competencesGpa p {
   margin-top: 3%;
   margin-bottom: 3%;
 }
-
 body #Veille {
   opacity: 70%;
   width: 45%;
@@ -306,7 +262,6 @@ body #Veille {
   background-color: #0085B2;
   border-radius: 15%;
 }
-
 body #Veille h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
@@ -315,7 +270,6 @@ body #Veille h2 {
   font-size: 40px;
   margin-top: 6%;
 }
-
 body #Veille h3 {
   font-family: "Hammersmith One";
   color: #A5FFC9;
@@ -324,7 +278,6 @@ body #Veille h3 {
   margin-top: 9%;
   font-size: 18px;
 }
-
 body #Veille p {
   font-family: "Roboto";
   font-size: 22px;
@@ -333,21 +286,18 @@ body #Veille p {
   margin-top: 2%;
   margin-left: 4%;
 }
-
 body #Veille #oc {
   position: absolute;
   width: 2.5%;
   margin-left: 25%;
   margin-top: 0.5%;
 }
-
 body #Veille #rss {
   position: absolute;
   width: 2.5%;
   margin-left: 29.3%;
   margin-top: 0.5%;
 }
-
 body #gedimagination {
   margin-left: 15%;
   margin-top: 3%;
@@ -359,38 +309,32 @@ body #gedimagination {
   opacity: 70%;
   border-radius: 15%;
 }
-
 body #gedimagination #jeu {
   margin-top: 20%;
 }
-
 body #gedimagination #jeu p {
   margin-bottom: 3%;
 }
-
 body #gedimagination #jeu h2 {
   color: #A5FFC9;
   font-size: 50px;
-  font-family: 'Source Code Pro';
+  font-family: "Source Code Pro";
   font-weight: bold;
   text-align: center;
   margin-bottom: 4%;
 }
-
 body #gedimagination #jeu h3 {
   color: #EDEDED;
-  font-family: 'Source Code Pro';
+  font-family: "Source Code Pro";
   font-weight: bold;
   text-align: center;
   margin-bottom: 7%;
 }
-
 body #gedimagination #jeu p {
   color: #121212;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   text-align: center;
 }
-
 body #Contact {
   margin-left: 15%;
   margin-top: 3%;
@@ -402,33 +346,28 @@ body #Contact {
   opacity: 70%;
   border-radius: 15%;
 }
-
 body #Contact h2 {
   text-align: center;
   color: #A5FFC9;
-  font-family: 'Hammersmith One';
+  font-family: "Hammersmith One";
   font-size: 32px;
 }
-
 body #Contact p {
   text-align: center;
   color: #121212;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
 body #Contact a {
   color: #EDEDED;
   font-size: 20px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   margin-left: 38%;
 }
-
 body #Contact a:hover {
   color: #A5FFC9;
 }
-
 body .btn1 {
   position: absolute;
   font-family: Roboto, sans-serif;
@@ -440,43 +379,28 @@ body .btn1 {
   font-weight: bold;
   background-color: #a5ffc9;
   padding: 10px 30px;
-  border: solid #00000000 2px;
-  -webkit-box-shadow: black 0px 0px 0px 0px;
+  border: solid rgba(0, 0, 0, 0) 2px;
   box-shadow: black 0px 0px 0px 0px;
   border-radius: 50px;
-  -webkit-transition: 700ms;
   transition: 700ms;
-  -webkit-transform: translateY(0);
   transform: translateY(0);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
 }
-
 body .btn1:hover {
-  -webkit-transition: 1000ms;
   transition: 1000ms;
   padding: 10px 50px;
-  -webkit-transform: translateY(0px);
   transform: translateY(0px);
   background-color: #0085B2;
   color: #EDEDED;
 }
-
 body #plouty {
   color: #EDEDED;
   margin-top: 40%;
   margin-left: 48.5%;
 }
-
 body .btn2 {
   position: absolute;
   font-family: Roboto, sans-serif;
@@ -488,34 +412,20 @@ body .btn2 {
   font-weight: bold;
   background-color: #a5ffc9;
   padding: 10px 30px;
-  border: solid #00000000 2px;
-  -webkit-box-shadow: black 0px 0px 0px 0px;
+  border: solid rgba(0, 0, 0, 0) 2px;
   box-shadow: black 0px 0px 0px 0px;
   border-radius: 50px;
-  -webkit-transition: 700ms;
   transition: 700ms;
-  -webkit-transform: translateY(0);
   transform: translateY(0);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
 }
-
 body .btn2:hover {
-  -webkit-transition: 1000ms;
   transition: 1000ms;
   padding: 10px 50px;
-  -webkit-transform: translateY(0px);
   transform: translateY(0px);
   background-color: #0085B2;
   color: #EDEDED;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
