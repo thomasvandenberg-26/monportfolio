@@ -109,11 +109,10 @@ body #stage1 .Louty h2 {
   text-align: center;
 }
 body #stage1 .Louty p {
+  font-size: 26px;
+  margin-top: 1%;
+  color: #121212;
   font-family: "Roboto";
-  font-size: 28px;
-  color: #EDEDED;
-  font-weight: bold;
-  margin-top: 2%;
   margin-left: 4%;
 }
 body #stage1 .Louty ul {
@@ -134,7 +133,7 @@ body #stage1 .Louty ul li:before {
 body #stage1 .myprojectLouty {
   width: 40%;
   position: absolute;
-  background-color: #0085B2;
+  background-color: #A5FFC9;
   margin-left: 50%;
   border-radius: 60px;
   padding: 10px;
@@ -152,7 +151,7 @@ body #stage1 .myprojectLouty .Mission {
 body #stage1 .myprojectLouty .Mission h2 {
   font-family: "Source Code Pro";
   font-size: 30px;
-  color: #EDEDED;
+  color: #0085B2;
   text-align: left;
 }
 body #stage1 .myprojectLouty .Mission ul {
@@ -197,10 +196,9 @@ body #stage2 #GPA h2 {
   text-align: center;
 }
 body #stage2 #GPA p {
+  font-size: 26px;
+  color: #121212;
   font-family: "Roboto";
-  font-size: 22px;
-  color: #EDEDED;
-  font-weight: bold;
   margin-top: 2%;
   margin-left: 4%;
 }
@@ -209,17 +207,10 @@ body #stage2 #myprojectGPA {
   margin-left: 55%;
   width: 40%;
   position: absolute;
-  background-color: #0085B2;
+  background-color: #A5FFC9;
   border-radius: 60px;
   padding: 10px;
   opacity: 72%;
-}
-body #stage2 #myprojectGPA h2 {
-  font-family: "Hammersmith One";
-  font-size: 64px;
-  color: #A5FFC9;
-  text-align: center;
-  font-size: 40px;
 }
 body #stage2 #myprojectGPA img {
   width: 20%;
@@ -228,7 +219,7 @@ body #stage2 #myprojectGPA img {
 body #stage2 #myprojectGPA h3 {
   font-family: "Source Code Pro";
   font-size: 30px;
-  color: #EDEDED;
+  color: #0085B2;
   text-align: left;
   margin-left: 3%;
 }
