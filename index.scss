@@ -14,13 +14,12 @@ body {
 	background-color: #121212;
 	margin-top: 1%;
 	#a_propos {
+        position: absolute; 
+		margin-bottom: 5%;
 		margin-left: 5%;
 		margin-top: 3%;
 		background-color: #0085B2;
-		margin-left: 15%;
-		margin-top: 2%;
 		width: 30%;
-		height: 50%;
 		opacity: 70%;
 		border-radius: 15%;
 		h2 {
@@ -37,20 +36,7 @@ body {
 				font-weight: bold;
 				font-size: 29px;
 				text-align: center;
-
 			}
-
-
-		#icones{
-			margin-top: 3%;
-			margin-left: 25%;
-			margin-bottom: 3%;
-			img{
-				width: 13%;
-                margin-left: 3%;
-			}
-
-		}
 		
 		#divertissement{
 			p{
@@ -71,36 +57,32 @@ body {
 			#qualites {
 				margin-left: 3%;
                 p{
-                    text-align: center;}
-                
+                    text-align: center;
+				}             
 			}
 		}
-		#row {
-			display: -webkit-box;
-			display: -ms-flexbox;
-			display: flex;
-			#column1 {
-				max-width: 30px;
-				text-align: left;
-			}
-			#column2 {
-				float: 40%;
-				text-align: right;
-				padding: 50px;
-			}
-		}
-		#langages {
-			position: absolute;
-			width: 40%;
-			margin-left: 100%;
+	}
+	#competences{
+		background-color: #A5FFC9;
+		width: 35%;
+		position: absolute;
+		margin-left: 50%;
+		margin-top: 5%;
+		#icones{
 			margin-top: 3%;
-			height: 30%;
-			background-color: #0085B2;
+			margin-left: 25%;
+			margin-bottom: 3%;
+			img{
+				width: 13%;
+                margin-left: 3%;
+			}
+
 		}
+		
 	}
 	#stage1 {
 		margin-left: 5%;
-		margin-top: 8%;
+		margin-top: 45%;
 		.Louty {
 			position: absolute;
 			width: 40%;

@@ -4,7 +4,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
 }
@@ -13,6 +14,7 @@ body {
   width: 100%;
   background-color: #121212;
 }
+
 body h1 {
   color: #0085B2;
   text-align: center;
@@ -20,25 +22,31 @@ body h1 {
   font-family: "Hammersmith One";
   font-size: 80px;
 }
+
 body #Diffusion {
   margin-left: 20%;
   margin-top: 2%;
   position: absolute;
 }
+
 body #Diffusion #form {
   margin-top: 2%;
   width: 42%;
 }
+
 body #Diffusion #diag {
   margin-left: 5%;
   width: 42%;
 }
+
 body #Diffusion #param {
   margin-top: 3%;
   width: 42%;
 }
+
 body #Diffusion #log {
   margin-top: 3%;
   margin-left: 3%;
   width: 42%;
-}/*# sourceMappingURL=doclouty.css.map */
+}
+/*# sourceMappingURL=doclouty.css.map */
