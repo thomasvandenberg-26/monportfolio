@@ -8,6 +8,10 @@
   text-decoration: none;
 }
 
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
 body {
   width: 100%;
   margin-bottom: 10%;
@@ -17,11 +21,11 @@ body {
 
 body #a_propos {
   position: absolute;
+  margin-top: 5%;
   margin-bottom: 5%;
-  margin-left: 5%;
-  margin-top: 3%;
+  margin-left: 12%;
   background-color: #0085B2;
-  width: 30%;
+  width: 35%;
   opacity: 70%;
   border-radius: 15%;
 }
@@ -31,21 +35,27 @@ body #a_propos h2 {
   font-family: "Source Code Pro";
   font-size: 30px;
   color: #A5FFC9;
-  margin-bottom: 8%;
+  margin-bottom: 4%;
+}
+
+body #a_propos #bio {
+  margin-top: 3%;
 }
 
 body #a_propos #bio p {
   margin-top: 3%;
   color: #EDEDED;
   font-weight: bold;
-  font-size: 29px;
+  font-size: 22px;
   text-align: center;
 }
 
 body #a_propos #bio #divertissement p {
+  margin-top: 3%;
   color: #EDEDED;
-  font-size: 29px;
-  margin-top: 5%;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
 }
 
 body #a_propos #bio #divertissement #test {
@@ -72,24 +82,81 @@ body #competences {
   background-color: #A5FFC9;
   width: 35%;
   position: absolute;
-  margin-left: 50%;
+  margin-left: 58%;
   margin-top: 5%;
+  border-radius: 15%;
+}
+
+body #competences h2 {
+  text-align: center;
+  font-family: "Hammersmith One";
+  font-size: 32px;
+  margin-left: 3%;
+  margin-top: 3%;
+  color: #0085B2;
+}
+
+body #competences h3 {
+  font-family: "Source Code Pro";
+  margin-left: 5%;
+  margin-top: 3%;
+  color: #0085B2;
 }
 
 body #competences #icones {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+body #competences #icones #icones1 {
   margin-top: 3%;
-  margin-left: 25%;
+  margin-left: 3%;
   margin-bottom: 3%;
 }
 
-body #competences #icones img {
-  width: 13%;
+body #competences #icones #icones1 img {
+  width: 18%;
   margin-left: 3%;
+}
+
+body #competences #icones #icones1 #java {
+  margin-left: 12%;
+}
+
+body #competences #icones #icones1 #php {
+  margin-left: 12%;
+}
+
+body #competences #icones #icones2 {
+  margin-top: 8%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+body #competences #icones #icones2 img {
+  width: 18%;
+  margin-left: 3%;
+}
+
+body #competences #icones #icones2 #python {
+  margin-left: 12%;
+}
+
+body #competences #icones #icones2 #hcjs {
+  margin-left: 12%;
+}
+
+body #competences #icones #icones3 img {
+  width: 18%;
+}
+
+body #competences #icones #icones3 #angular {
+  margin-left: 37.5%;
 }
 
 body #stage1 {
   margin-left: 5%;
-  margin-top: 45%;
+  margin-top: 40%;
 }
 
 body #stage1 .Louty {
