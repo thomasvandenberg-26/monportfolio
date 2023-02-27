@@ -22,7 +22,7 @@ body {
 		margin-top: 5%;
 		margin-bottom: 5%;
 		margin-left: 12%;
-		background-color: #0085B2;
+		background-color: #A5FFC9;
 		width: 35%;
 		opacity: 70%;
 		border-radius: 15%;
@@ -31,7 +31,7 @@ body {
 			text-align: center;
 			font-family: "Hammersmith One";
 			font-size: 30px;
-			color: #A5FFC9;
+			color: #0085B2;
 			margin-bottom: 4%;
 		}
 
@@ -53,6 +53,12 @@ body {
 				width: 13%;
 				margin-left: 42%;
 				margin-top: 3%;
+			}
+			a{
+				color: #0085B2;
+				font-size: 20px;
+				font-family: 'Roboto';
+				margin-left: 5%;
 			}
 		
 		#divertissement{
@@ -84,40 +90,41 @@ body {
 		}
 	}
 	#competences{
-		background-color: #A5FFC9;
+		background-color: #0085B2;
 		width: 35%;
 		position: absolute;
 		margin-left: 58%;
 		margin-top: 5%;
 		border-radius: 15%;
+		opacity: 70%;
 		h2{
 			text-align: center;
 			font-family: "Hammersmith One";
 			font-size: 32px;
 			    margin-left: 3%;
 				margin-top: 3%;
-				color: #0085B2;
+				color: #A5FFC9;
 				
 			}
 				
 			h3{ 
 				font-family: 'Roboto';
-			    margin-left: 5%;
+			    margin-left: 3%;
 				margin-top: 3%;
-				color: #0085B2;
+				color: #A5FFC9;
 				
 			}
 #icones{
 				margin-top: 5%;
-				margin-left: 10%;
+				margin-left: 1%;
 		#icones1{
 			margin-top: 3%;
-			margin-left: 3%;
+			margin-left: 16%;
 			margin-bottom: 3%;
-			
+				
 			img{
 				width: 18%;
-                margin-left: 3%;
+               
 			}
 			#java{
 				margin-left: 12%;
@@ -131,7 +138,7 @@ body {
 
 		#icones2{
 			margin-top: 8%;
-			margin-left: 3%;
+			margin-left: 13%;
 			margin-bottom: 3%;
 			img{
 				width: 18%;
@@ -146,22 +153,14 @@ body {
 		}
 		#icones3{
 			img{
-			width: 18%;
-		
-		}
-		 #wm{
-			margin-left: 5%;
-			margin-top: -3%;
-		 }
-		  #angular{
-		
-			margin-left: 36.8%;
+				width: 12%;
+				margin-left: 43%;
+				margin-top: 3%;
+			}
 			
-		  }
 		}
 		#icones4{
-		
-		
+		     margin-left: 5%;  
 			img{
 				width: 12%;
 				margin-top: 3%;
@@ -169,7 +168,7 @@ body {
 			}
 			#vs{
 				margin-top: 5%;
-				margin-left: 8%;
+				margin-left: 10%;
 			}
 			#wm{
 	            
@@ -181,6 +180,13 @@ body {
 				margin-left: 15%;
 				width: 14%;
 		   }
+		}
+		#icones5{
+			img{
+				width: 12%;
+				margin-left: 43%;
+			}
+
 		}
 	}
 	
@@ -282,7 +288,7 @@ body {
 		position: absolute;
 		width: 40%;
 		border-radius: 10%;
-		background-color: #0085B2;
+		background-color: #A5FFC9;
 		margin-top: 40%;
 		margin-left: 10%;
 	
@@ -303,7 +309,7 @@ body {
 		h2 {
 			font-family: "Hammersmith One";
 			font-size: 64px;
-			color: #A5FFC9;
+			color: #0085B2;
 			margin-top: 3%;
 			text-align: center;
 		}
@@ -323,7 +329,7 @@ body {
 		margin-bottom: 5%S;
 		width: 40%;
 		position: absolute;
-		background-color: #A5FFC9;
+		background-color: #0085B2;
 		border-radius: 60px;
 		padding: 10px;
 		opacity: 72%;
@@ -335,7 +341,7 @@ body {
 		h3{
 			font-family: "Source Code Pro";
 					font-size: 30px;
-					color: #0085B2;
+					color: #A5FFC9;
 					text-align: left;
 					margin-left: 3%;
 		}
@@ -346,18 +352,6 @@ body {
 				margin-top: 1%;
 				color: #121212;
 				font-family: 'Roboto';
-			}
-		}
-		#competencesGpa {
-			font-family: "Roboto";
-					font-size: 28px;
-					color: #EDEDED;
-					font-weight: bold;
-					margin-top: 3%; margin-left: 3%;
-			p {
-				margin-top: 3%;
-						margin-bottom: 3%;
-			   
 			}
 		}
 		
@@ -412,11 +406,10 @@ body {
 		
 	}
     #gedimagination{
-        margin-left: 15%;
-		margin-top: 3%;
+	  
 		background-color: #0085B2;
-		margin-left: 35%;
-		margin-top: 90%;
+		margin-left: 12%;
+		margin-top:90%;
 		width: 30%;
 		height: 50%;
 		opacity: 70%;
@@ -451,7 +444,16 @@ body {
     }
         
     }
+	#schema{
+		img{
+		width: 35%; 
+		margin-top: 2%;
+		margin-left: 45%;
+
+	}
+	}
     #Contact{
+		
         margin-left: 15%;
 		margin-top: 3%;
 		background-color: #0085B2;
@@ -474,12 +476,7 @@ body {
             margin-top: 2%;
 			margin-bottom: 2%;
         }
-		a{
-			color: #EDEDED;
-			font-size: 20px;
-			font-family: 'Roboto';
-			margin-left: 38%;
-		}
+		
 		a:hover{
 			color: #A5FFC9; 
 		}
