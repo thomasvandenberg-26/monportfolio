@@ -14,7 +14,6 @@ body {
   width: 100%;
   text-align: center;
 }
-
 #liendiag a {
   color: #EDEDED;
 }
@@ -22,18 +21,15 @@ body {
 #fenetre {
   margin-top: 3%;
 }
-
 #fenetre #zr {
   position: absolute;
 }
-
 #fenetre #zr img {
   width: 50%;
   height: 5%;
   margin-top: 8%;
   margin-left: 100%;
 }
-
 #fenetre #recherche img {
   width: 15%;
   height: 5%;
@@ -46,7 +42,6 @@ body {
   width: 100%;
   text-align: center;
 }
-
 #schema a {
   color: #EDEDED;
 }
@@ -54,7 +49,6 @@ body {
 #schema2 {
   margin-top: 5%;
 }
-
 #schema2 img {
   width: 40%;
   margin-left: 45%;
@@ -63,8 +57,6 @@ body {
 #schemapascal {
   margin-left: 20%;
 }
-
 #schemapascal img {
   width: 40%;
-}
-/*# sourceMappingURL=docgpa.css.map */
+}/*# sourceMappingURL=docgpa.css.map */
