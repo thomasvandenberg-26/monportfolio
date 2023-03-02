@@ -86,14 +86,6 @@ body #a_propos #bio #divertissement #patisserie {
   margin-top: 3%;
 }
 
-body #a_propos #bio #qualites {
-  margin-left: 3%;
-}
-
-body #a_propos #bio #qualites p {
-  text-align: center;
-}
-
 body #competences {
   background-color: #0085B2;
   width: 35%;
