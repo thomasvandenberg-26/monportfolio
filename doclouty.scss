@@ -58,25 +58,55 @@ body{
             margin-left: 20%;
             margin-top: 2%;
                position: absolute;
+               h2{
+                width: 100%;
+               text-align: center;
+                color: #A5FFC9;
+                font-family: 'Hammersmith One';
+                font-size: 32px;
+            }
               
-               #form{
+            p{
+                color: #EDEDED;
+                font-family: "Roboto";
+                
+            }
+            #image1{
+                #form{
+                    position: absolute;
+                width: 80%;
+                margin-top: 10%;             
+            }
+             }
+            #pform{
+                color: #EDEDED;
+                font-family: "Roboto";
+                font-size: x-large;
+                margin-left: 90%;
+                margin-top: 25%;
+                width: 100%;
+            }
 
-                margin-top: 2%;
-                  width: 42%;
-               }
+            #image2{
+
                #diag{
-                margin-left: 5%;
-                width: 42%;
+                position: absolute;
+                width: 70%;
+                margin-top: 38%;
                }
-               #param{
-                margin-top: 3%;
-                width: 42%;
-               }
-               #log {
-                margin-top: 3%;
-                margin-left:  3%;
-                width: 42%;
-               }
+            }
+            #pdiag{
+                color: #EDEDED;
+                font-family: "Roboto";
+                font-size: x-large;
+                margin-left: 90%;
+                margin-top: 50%;
+                width: 100%;
+            }
+
+
+            
+            
             
              }
             }
