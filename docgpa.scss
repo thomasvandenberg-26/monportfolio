@@ -1,3 +1,10 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+	text-decoration: none;
+}
 body{
     width: 100%;
     background-color: #121212;
@@ -6,34 +13,85 @@ body{
 
    img{  
     width: 13%;
-    margin-left: 50%;
+    margin-left: 40%;
     margin-top: 3%;}
 }
-#liendiag{
-    margin-top: 3%;
-    width: 100%; text-align: center;
-        a{
-            font-family: "Roboto";
-           font-size: large;
-            color: #EDEDED;
-        }
-        
-    
-}
+
 #diagGPA{
     img{
-        width: 50%;  
-         margin-left: 26%; 
+        position: absolute;
+        width: 45%;  
+         margin-left: 54%; 
          margin-top: 5%; 
         }
  
 }
+#pdiaggpa{
+    
+    color: #EDEDED;
+    font-size: x-large;
+    font-family: "Roboto";
+    margin-top: 21%;
+    
+}
+
+#ZR{
+   img{
+    position: absolute; 
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 15%;
+   }
+}
+
+#rechercher{
+    img{position: absolute;
+        width: 14%;
+        
+        margin-left:60% ;
+        margin-top: 5%;
+    }
+}
+
+#schema{
+    img{
+        position: absolute;
+        width: 30%;
+        margin-top: 20%;
+    }
+}
+#schemapascal{
+    img{
+        position: absolute;
+        width: 25%;
+        margin-top: 15%;
+        margin-left: 32%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #fenetre{
 
     margin-top: 3%;
 #zr
-{  position: absolute;
-    img{
+{  
+    img{position: absolute;
      width: 50%;
     height: 5%;
     margin-top: 8%;
