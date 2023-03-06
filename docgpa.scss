@@ -16,40 +16,31 @@ body{
     margin-left: 40%;
     margin-top: 3%;}
 }
+#ZR{
+    img{
+     position: absolute; 
+     margin-left: 60%;
+     margin-top: 3%;
+     width: 15%;
+    }
+ }
 
 #diagGPA{
     img{
         position: absolute;
-        width: 45%;  
-         margin-left: 54%; 
-         margin-top: 5%; 
+        width: 52%;  
+         margin-left: 45%; 
+         margin-top: 40%; 
         }
  
 }
-#pdiaggpa{
-    
-    color: #EDEDED;
-    font-size: x-large;
-    font-family: "Roboto";
-    margin-top: 21%;
-    
-}
 
-#ZR{
-   img{
-    position: absolute; 
-    margin-left: 40%;
-    margin-top: 10%;
-    width: 15%;
-   }
-}
-
-#rechercher{
-    img{position: absolute;
-        width: 14%;
-        
-        margin-left:60% ;
-        margin-top: 5%;
+#createMessage{
+    img{
+        position: absolute;
+        width: 45%;
+        margin-left: 45%;
+        margin-top: 75%;
     }
 }
 
