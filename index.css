@@ -43,23 +43,23 @@ body #a_propos #bio p {
   font-size: 2ex;
   margin-left: 6%;
 }
-body #a_propos #bio h4 {
+body #a_propos h4 {
   font-family: "Roboto";
   margin-top: 3%;
   margin-left: 2%;
 }
-body #a_propos #bio #logoIPI {
+body #a_propos #logoIPI {
   width: 13%;
   margin-left: 42%;
   margin-top: 3%;
 }
-body #a_propos #bio a {
+body #a_propos a {
   color: #0085B2;
   font-size: 2ex;
   font-family: "Roboto";
   margin-left: 5%;
 }
-body #a_propos #bio #divertissement p {
+body #a_propos #divertissement p {
   font-size: 2ex;
   margin-top: 1%;
   color: #121212;
@@ -67,16 +67,17 @@ body #a_propos #bio #divertissement p {
   margin-left: 6%;
   text-align: center;
 }
-body #a_propos #bio #divertissement #test {
+body #a_propos #divertissement #test {
   margin-top: 3%;
 }
-body #a_propos #bio #divertissement #randonnée {
+body #a_propos #divertissement #randonnée {
   margin-top: 3%;
 }
-body #a_propos #bio #divertissement #patisserie {
+body #a_propos #divertissement #patisserie {
   margin-top: 3%;
 }
-body #competences {
+
+#competences {
   background-color: #0085B2;
   width: 35%;
   position: absolute;
@@ -85,7 +86,7 @@ body #competences {
   border-radius: 15%;
   opacity: 70%;
 }
-body #competences h2 {
+#competences h2 {
   text-align: center;
   font-family: "Hammersmith One";
   font-size: 3ex;
@@ -93,80 +94,81 @@ body #competences h2 {
   margin-top: 3%;
   color: #A5FFC9;
 }
-body #competences h3 {
+#competences h3 {
   font-family: "Roboto";
   margin-left: 3%;
   margin-top: 3%;
   color: #A5FFC9;
   font-size: 2.5ex;
 }
-body #competences #icones {
+#competences #icones {
   margin-top: 5%;
   margin-left: 1%;
 }
-body #competences #icones #icones1 {
+#competences #icones #icones1 {
   margin-top: 3%;
   margin-left: 16%;
   margin-bottom: 3%;
 }
-body #competences #icones #icones1 img {
+#competences #icones #icones1 img {
   width: 18%;
 }
-body #competences #icones #icones1 #java {
+#competences #icones #icones1 #java {
   margin-left: 12%;
 }
-body #competences #icones #icones1 #php {
+#competences #icones #icones1 #php {
   margin-left: 12%;
 }
-body #competences #icones #icones2 {
+#competences #icones #icones2 {
   margin-top: 8%;
   margin-left: 13%;
   margin-bottom: 3%;
 }
-body #competences #icones #icones2 img {
+#competences #icones #icones2 img {
   width: 18%;
   margin-left: 3%;
 }
-body #competences #icones #icones2 #python {
+#competences #icones #icones2 #python {
   margin-left: 12%;
 }
-body #competences #icones #icones2 #hcjs {
+#competences #icones #icones2 #hcjs {
   margin-left: 12%;
 }
-body #competences #icones #icones3 img {
+#competences #icones #icones3 img {
   width: 12%;
   margin-left: 43%;
   margin-top: 3%;
 }
-body #competences #icones #icones4 {
+#competences #icones #icones4 {
   margin-left: 5%;
 }
-body #competences #icones #icones4 img {
+#competences #icones #icones4 img {
   width: 12%;
   margin-top: 3%;
   margin-bottom: 3%;
 }
-body #competences #icones #icones4 #vs {
+#competences #icones #icones4 #vs {
   margin-top: 5%;
   margin-left: 10%;
 }
-body #competences #icones #icones4 #wm {
+#competences #icones #icones4 #wm {
   margin-left: 15%;
   width: 20%;
 }
-body #competences #icones #icones4 #android {
+#competences #icones #icones4 #android {
   margin-left: 15%;
   width: 14%;
 }
-body #competences #icones #icones5 img {
+#competences #icones #icones5 img {
   width: 12%;
   margin-left: 43%;
 }
-body #stage1 {
+
+#stage1 {
   margin-left: 5%;
   margin-top: 60%;
 }
-body #stage1 .Louty {
+#stage1 .Louty {
   position: absolute;
   width: 40%;
   border-radius: 10%;
@@ -175,21 +177,21 @@ body #stage1 .Louty {
   height: 60%;
   opacity: 70%;
 }
-body #stage1 .Louty h2 {
+#stage1 .Louty h2 {
   font-family: "Hammersmith One";
   font-size: 5ex;
   color: #A5FFC9;
   margin-top: 3%;
   text-align: center;
 }
-body #stage1 .Louty p {
+#stage1 .Louty p {
   font-size: 2.5ex;
   margin-top: 1%;
   color: #121212;
   font-family: "Roboto";
   margin-left: 4%;
 }
-body #stage1 .myprojectLouty {
+#stage1 .myprojectLouty {
   width: 40%;
   position: absolute;
   background-color: #A5FFC9;
@@ -198,45 +200,46 @@ body #stage1 .myprojectLouty {
   padding: 10px;
   opacity: 72%;
 }
-body #stage1 .myprojectLouty h2 {
+#stage1 .myprojectLouty h2 {
   margin-top: 3%;
   font-family: "Hammersmith One";
   color: #0085B2;
   font-size: 5ex;
 }
-body #stage1 .myprojectLouty .Mission {
+#stage1 .myprojectLouty .Mission {
   margin-left: 3%;
   margin-top: 3%;
   margin-bottom: 3%;
   font-size: 26px;
 }
-body #stage1 .myprojectLouty .Mission h2 {
+#stage1 .myprojectLouty .Mission h2 {
   font-family: "Source Code Pro";
   font-size: 2.5ex;
   color: #0085B2;
   text-align: left;
 }
-body #stage1 .myprojectLouty .Mission ul {
+#stage1 .myprojectLouty .Mission ul {
   margin: 3%;
 }
-body #stage1 .myprojectLouty .Mission ul li {
+#stage1 .myprojectLouty .Mission ul li {
   font-size: 2ex;
   margin-top: 1%;
   color: #121212;
   font-family: "Roboto";
 }
-body #stage1 .myprojectLouty .Mission .competences {
+#stage1 .myprojectLouty .Mission .competences {
   font-family: "Roboto";
   font-size: 28px;
   color: #EDEDED;
   font-weight: bold;
   margin-top: 3%;
 }
-body #stage1 .myprojectLouty .Mission .competences p {
+#stage1 .myprojectLouty .Mission .competences p {
   margin-top: 3%;
   margin-bottom: 3%;
 }
-body #stage2 #GPA {
+
+#stage2 #GPA {
   position: absolute;
   width: 40%;
   border-radius: 10%;
@@ -245,32 +248,32 @@ body #stage2 #GPA {
   margin-left: 10%;
   opacity: 70%;
 }
-body #stage2 #GPA #logoGPA {
+#stage2 #GPA #logoGPA {
   width: 16%;
   margin-top: 3%;
   margin-left: 45%;
   margin-bottom: 3%;
 }
-body #stage2 #GPA #voiture {
+#stage2 #GPA #voiture {
   width: 10%;
   margin-left: 3%;
   margin-top: 1, 5%;
 }
-body #stage2 #GPA h2 {
+#stage2 #GPA h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
   color: #0085B2;
   margin-top: 3%;
   text-align: center;
 }
-body #stage2 #GPA p {
+#stage2 #GPA p {
   font-size: 2.5ex;
   color: #121212;
   font-family: "Roboto";
   margin-top: 2%;
   margin-left: 4%;
 }
-body #stage2 #myprojectGPA {
+#stage2 #myprojectGPA {
   margin-top: 40%;
   margin-left: 55%;
   margin-bottom: 5% S;
@@ -281,35 +284,36 @@ body #stage2 #myprojectGPA {
   padding: 10px;
   opacity: 72%;
 }
-body #stage2 #myprojectGPA img {
+#stage2 #myprojectGPA img {
   width: 20%;
   margin: 5%;
 }
-body #stage2 #myprojectGPA #mission {
+#stage2 #myprojectGPA #mission {
   margin-top: 3%;
 }
-body #stage2 #myprojectGPA h3 {
+#stage2 #myprojectGPA h3 {
   font-size: 3ex;
   color: #A5FFC9;
   text-align: left;
   margin-left: 3%;
 }
-body #stage2 #myprojectGPA ul {
+#stage2 #myprojectGPA ul {
   margin: 3%;
 }
-body #stage2 #myprojectGPA ul li {
+#stage2 #myprojectGPA ul li {
   font-size: 28px;
   margin-top: 1%;
   color: #121212;
   font-family: "Roboto";
   font-size: 2.5ex;
 }
-body #stage2 #myprojectGPA h5 {
+#stage2 #myprojectGPA h5 {
   font-family: "Roboto";
   font-style: 1.5ex;
   margin-left: 3ex;
 }
-body #gedimagination {
+
+#gedimagination {
   position: absolute;
   background-color: #0085B2;
   margin-left: 12%;
@@ -318,20 +322,20 @@ body #gedimagination {
   opacity: 70%;
   border-radius: 15%;
 }
-body #gedimagination #jeu {
+#gedimagination #jeu {
   margin-top: 20%;
 }
-body #gedimagination #jeu p {
+#gedimagination #jeu p {
   margin-bottom: 3%;
 }
-body #gedimagination #jeu h2 {
+#gedimagination #jeu h2 {
   color: #A5FFC9;
   font-size: 5ex;
   font-family: "Hammersmith One";
   font-weight: bold;
   text-align: center;
 }
-body #gedimagination #jeu h3 {
+#gedimagination #jeu h3 {
   color: #EDEDED;
   font-family: "Hammersmith One";
   font-size: 2.5ex;
@@ -339,18 +343,20 @@ body #gedimagination #jeu h3 {
   text-align: center;
   margin-bottom: 7%;
 }
-body #gedimagination #jeu p {
+#gedimagination #jeu p {
   color: #121212;
   font-family: "Roboto";
   text-align: center;
   font-size: 2ex;
 }
-body #schema img {
+
+#schema img {
   width: 35%;
   margin-top: 90%;
   margin-left: 55%;
 }
-body #Veille {
+
+#Veille {
   opacity: 70%;
   width: 45%;
   color: #A5FFC9;
@@ -359,7 +365,7 @@ body #Veille {
   background-color: #0085B2;
   border-radius: 15%;
 }
-body #Veille h2 {
+#Veille h2 {
   font-family: "Hammersmith One";
   font-size: 64px;
   color: #A5FFC9;
@@ -367,35 +373,35 @@ body #Veille h2 {
   font-size: 4ex;
   margin-top: 6%;
 }
-body #Veille #oc {
+#Veille #oc {
   position: absolute;
   width: 2.5%;
   margin-left: 25%;
   margin-top: 0.5%;
 }
-body #Veille #rss {
+#Veille #rss {
   position: absolute;
   width: 2.5%;
   margin-left: 29.3%;
   margin-top: 0.5%;
 }
-body #Veille #yt {
+#Veille #yt {
   position: absolute;
   width: 2.5%;
   margin-left: 20.3%;
   margin-top: 0.5%;
 }
-body #Veille #cdg {
+#Veille #cdg {
   position: absolute;
   width: 2.5%;
   margin-left: 17%;
   margin-top: 0.5%;
 }
-body #Veille #textes {
+#Veille #textes {
   margin-top: 6%;
   margin-bottom: 3%;
 }
-body #Veille #textes h3 {
+#Veille #textes h3 {
   font-family: "Hammersmith One";
   color: #A5FFC9;
   text-align: left;
@@ -403,7 +409,7 @@ body #Veille #textes h3 {
   margin-top: 9%;
   font-size: 2ex;
 }
-body #Veille #textes p {
+#Veille #textes p {
   text-align: center;
   color: #121212;
   font-family: "Roboto";
