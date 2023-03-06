@@ -42,6 +42,7 @@ body {
 				margin-top: 1%;
                 color: #121212;
                 font-family: 'Roboto';
+				font-size: 2ex;
 				margin-left: 6%;
 			}
 			h4{
@@ -56,14 +57,14 @@ body {
 			}
 			a{
 				color: #0085B2;
-				font-size: 20px;
+				font-size: 2ex;
 				font-family: 'Roboto';
 				margin-left: 5%;
 			}
 		
 		#divertissement{
 			p{
-				font-size: 22px;
+				font-size: 2ex;
 				margin-top: 1%;
                 color: #121212;
                 font-family: 'Roboto';
@@ -95,7 +96,7 @@ body {
 		h2{
 			text-align: center;
 			font-family: "Hammersmith One";
-			font-size: 32px;
+			font-size: 3ex;
 			    margin-left: 3%;
 				margin-top: 3%;
 				color: #A5FFC9;
@@ -107,6 +108,7 @@ body {
 			    margin-left: 3%;
 				margin-top: 3%;
 				color: #A5FFC9;
+				font-size: 2.5ex;
 				
 			}
 #icones{
@@ -188,7 +190,7 @@ body {
 	}
 	#stage1 {
 		margin-left: 5%;
-		margin-top: 52%;
+		margin-top: 60%;
 		.Louty {
 			position: absolute;
 			width: 40%;
@@ -199,35 +201,35 @@ body {
 			opacity: 70%;
 			h2 {
 				font-family: "Hammersmith One";
-				font-size: 64px;
+				font-size: 5ex;
 				color: #A5FFC9;
 				margin-top: 3%;
 				text-align: center;
 			}
 			p {
-				font-size: 26px;
+				font-size: 2.5ex;
 				margin-top: 1%;
                 color: #121212;
                 font-family: 'Roboto';
 				margin-left: 4%;
 			}
-			ul {
-				font-family: "Roboto";
-				font-size: 28px;
-				color: #EDEDED;
-				font-weight: bold;
-				margin-top: 15px;
-				list-style-type: none;
-				li {
-					&:before {
-						content: "\2022";
-						color: #A5FFC9;
-						display: inline-block;
-						width: 1em;
-						margin-left: -1em;
-					}
-				}
-			}
+			// ul {
+			// 	font-family: "Roboto";
+			// 	font-size: 2.5ex;
+			// 	color: #EDEDED;
+			// 	font-weight: bold;
+			// 	margin-top: 15px;
+			// 	list-style-type: none;
+			// 	li {
+			// 		&:before {
+			// 			content: "\2022";
+			// 			color: #A5FFC9;
+			// 			display: inline-block;
+			// 			width: 1em;
+			// 			margin-left: -1em;
+			// 		}
+			// 	}
+			// }
 		}
 		.myprojectLouty {
 			width: 40%;
@@ -237,10 +239,11 @@ body {
 			border-radius: 60px;
 			padding: 10px;
 			opacity: 72%;
-			h1 {
+			h2 {
 				margin-top: 3%;
 				font-family: "Hammersmith One";
 				color: #0085B2;
+				font-size: 5ex;
 			}
 			.Mission {
 				margin-left: 3%;
@@ -249,14 +252,14 @@ body {
 				font-size: 26px;
 				h2 {
 					font-family: "Source Code Pro";
-					font-size: 30px;
+					font-size: 2.5ex;
 					color: #0085B2;
 					text-align: left;
 				}
 				ul {
 					margin: 3%;
 					li {
-						font-size: 26px;
+						font-size: 2ex;
 						margin-top: 1%;
                         color: #121212;
                         font-family: 'Roboto';
@@ -309,7 +312,7 @@ body {
 			text-align: center;
 		}
 		p {
-			font-size: 26px;
+			font-size: 2.5ex;
                 color: #121212;
                 font-family: 'Roboto';
 			margin-top: 2%;
@@ -333,9 +336,12 @@ body {
 			margin: 5%; 
 
 		}
+		#mission{
+			margin-top: 3%;
+		}
 		h3{
-			font-family: "Source Code Pro";
-					font-size: 30px;
+			
+					font-size: 3ex;
 					color: #A5FFC9;
 					text-align: left;
 					margin-left: 3%;
@@ -347,7 +353,13 @@ body {
 				margin-top: 1%;
 				color: #121212;
 				font-family: 'Roboto';
+				font-size: 2.5ex;
 			}
+		}
+		h5{
+			font-family: "Roboto";
+			font-style: 1.5ex;
+			margin-left: 3ex;
 		}
 		
 		}
@@ -356,7 +368,7 @@ body {
 	    position: absolute;
 		background-color: #0085B2;
 		margin-left: 12%;
-		margin-top: 80%;
+		margin-top: 85%;
 		width: 30%;
 		opacity: 70%;
 		border-radius: 15%;
@@ -368,23 +380,26 @@ body {
          h2{
 
             color: #A5FFC9;
-            font-size: 50px;
-            font-family: 'Source Code Pro';
+            font-size: 5ex;
+            font-family: 'Hammersmith One';
             font-weight: bold;
             text-align: center;
          
         }
         h3{
             color: #EDEDED;
-            font-family: 'Source Code Pro';
+            font-family: 'Hammersmith One';
+			font-size: 2.5ex;
             font-weight: bold;
             text-align: center;
             margin-bottom: 7%;
         }
+
         p{
             color: #121212;
             font-family: 'Roboto';
             text-align: center;
+			font-size: 2ex;
 
         }
 
@@ -394,7 +409,7 @@ body {
 	#schema{
 		img{
 		width: 35%; 
-		margin-top: 85%;
+		margin-top: 90%;
 		margin-left: 55%;
 		}
 	}
@@ -403,7 +418,7 @@ body {
 		opacity: 70%;
 		width: 45%;
 		color: #A5FFC9;
-		margin-top: 5%;
+		margin-top: 12%;
 		margin-left: 28%;
 		background-color: #0085B2;
 		border-radius: 15%;
@@ -413,7 +428,7 @@ body {
 			font-size: 64px;
 			color: #A5FFC9;;
 			text-align: center;
-			font-size: 40px;
+			font-size: 4ex;
 			margin-top: 6%;
 		}
 			#oc{
@@ -451,7 +466,7 @@ body {
 					text-align: left; 
 					margin-left: 3%;
 					margin-top: 9%;
-					font-size: 18px;
+					font-size: 2ex;
 				}
 				p{
 					text-align: center;
@@ -476,6 +491,11 @@ body {
 		opacity: 70%;
 		border-radius: 15%;
        
+		h2{
+			text-align: center;
+			color: #A5FFC9;
+			font-family: "Hammersmith One";
+		}
         p{
 			text-align: center;
 			color: #121212;

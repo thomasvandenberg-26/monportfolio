@@ -1,8 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
 }
@@ -62,7 +61,6 @@ body {
 #fenetre {
   margin-top: 3%;
 }
-
 #fenetre #zr img {
   position: absolute;
   width: 50%;
@@ -70,7 +68,6 @@ body {
   margin-top: 8%;
   margin-left: 100%;
 }
-
 #fenetre #recherche img {
   width: 15%;
   height: 5%;
@@ -83,7 +80,6 @@ body {
   width: 100%;
   text-align: center;
 }
-
 #schema a {
   color: #EDEDED;
   font-family: "Roboto";
@@ -92,7 +88,6 @@ body {
 #schema2 {
   margin-top: 5%;
 }
-
 #schema2 img {
   width: 40%;
   margin-left: 50%;
@@ -109,8 +104,6 @@ body {
 #schemapascal {
   margin-left: 20%;
 }
-
 #schemapascal img {
   width: 40%;
-}
-/*# sourceMappingURL=docgpa.css.map */
+}/*# sourceMappingURL=docgpa.css.map */
