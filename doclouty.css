@@ -4,8 +4,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
 }
@@ -14,7 +13,6 @@ body {
   width: 100%;
   background-color: #121212;
 }
-
 body h1 {
   color: #0085B2;
   text-align: center;
@@ -22,32 +20,27 @@ body h1 {
   font-family: "Hammersmith One";
   font-size: 80px;
 }
-
 body #Diffusion {
   margin-left: 20%;
   margin-top: 2%;
   position: absolute;
 }
-
 body #Diffusion h2 {
   width: 100%;
   text-align: center;
   color: #A5FFC9;
-  font-family: 'Hammersmith One';
+  font-family: "Hammersmith One";
   font-size: 32px;
 }
-
 body #Diffusion p {
   color: #EDEDED;
   font-family: "Roboto";
 }
-
 body #Diffusion #image1 #form {
   position: absolute;
   width: 80%;
   margin-top: 10%;
 }
-
 body #Diffusion #pform {
   color: #EDEDED;
   font-family: "Roboto";
@@ -56,13 +49,11 @@ body #Diffusion #pform {
   margin-top: 25%;
   width: 100%;
 }
-
 body #Diffusion #image2 #diag {
   position: absolute;
   width: 70%;
   margin-top: 38%;
 }
-
 body #Diffusion #pdiag {
   color: #EDEDED;
   font-family: "Roboto";
@@ -71,13 +62,11 @@ body #Diffusion #pdiag {
   margin-top: 50%;
   width: 100%;
 }
-
 body #Diffusion #image3 #param {
   position: absolute;
   width: 80%;
   margin-top: 70%;
 }
-
 body #Diffusion #pparam {
   color: #EDEDED;
   font-family: "Roboto";
@@ -86,14 +75,12 @@ body #Diffusion #pparam {
   margin-top: 68%;
   width: 100%;
 }
-
 body #Diffusion #image4 {
   position: absolute;
   width: 80%;
   margin-left: 98%;
   margin-top: 10%;
 }
-
 body #Diffusion #plog {
   width: 60%;
   color: #EDEDED;
@@ -101,5 +88,4 @@ body #Diffusion #plog {
   font-size: x-large;
   margin-top: 30%;
   width: 100%;
-}
-/*# sourceMappingURL=doclouty.css.map */
+}/*# sourceMappingURL=doclouty.css.map */
