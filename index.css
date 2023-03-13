@@ -509,4 +509,32 @@ body .btn2:hover {
   transform: translateY(0px);
   background-color: #0085B2;
   color: #EDEDED;
+}
+body .btn3 {
+  position: absolute;
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 20px;
+  margin-top: 5%;
+  left: 65%;
+  color: #121212;
+  font-weight: bold;
+  background-color: #a5ffc9;
+  padding: 10px 30px;
+  border: solid rgba(0, 0, 0, 0) 2px;
+  box-shadow: black 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 700ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+body .btn3:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(0px);
+  background-color: #0085B2;
+  color: #EDEDED;
 }/*# sourceMappingURL=index.css.map */
