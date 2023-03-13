@@ -182,6 +182,13 @@ body #stage1 .Louty h2 {
   margin-top: 3%;
   text-align: center;
 }
+body #stage1 .Louty h3 {
+  color: #A5FFC9;
+  font-family: "Hammersmith One";
+  font-size: 2.5ex;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
 body #stage1 .Louty p {
   font-size: 2.5ex;
   margin-top: 1%;
@@ -263,8 +270,15 @@ body #stage2 #GPA h2 {
   margin-top: 3%;
   text-align: center;
 }
-body #stage2 #GPA p {
+body #stage2 #GPA h3 {
+  color: #0085B2;
+  font-family: "Hammersmith One";
   font-size: 2.5ex;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+body #stage2 #GPA p {
+  font-size: 2ex;
   color: #121212;
   font-family: "Roboto";
   margin-top: 2%;
@@ -313,13 +327,13 @@ body #gedimagination {
   position: absolute;
   background-color: #0085B2;
   margin-left: 12%;
-  margin-top: 85%;
-  width: 30%;
+  margin-top: 90%;
+  width: 38%;
   opacity: 70%;
   border-radius: 15%;
 }
 body #gedimagination #jeu {
-  margin-top: 20%;
+  margin-top: 10%;
 }
 body #gedimagination #jeu p {
   margin-bottom: 3%;
@@ -354,7 +368,7 @@ body #Veille {
   opacity: 70%;
   width: 45%;
   color: #A5FFC9;
-  margin-top: 12%;
+  margin-top: 30%;
   margin-left: 28%;
   background-color: #0085B2;
   border-radius: 15%;
@@ -473,8 +487,8 @@ body .btn2 {
   font-family: Roboto, sans-serif;
   font-weight: 0;
   font-size: 20px;
-  margin-top: 75%;
-  left: 35%;
+  margin-top: 80%;
+  left: 65%;
   color: #121212;
   font-weight: bold;
   background-color: #a5ffc9;
