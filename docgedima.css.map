@@ -1,1 +1,9 @@
-{"version":3,"sources":["docgedima.scss","docgedima.css"],"names":[],"mappings":"AAAA;EACC,UAAA;EACA,SAAA;EAEA,sBAAA;EACA,qBAAA;EACA,qBAAA;ACCD;;ADCA;EACI,WAAA;EACA,yBAAA;ACEJ;ADAI;EACI,UAAA;EACA,gBAAA;EACA,cAAA;ACER","file":"docgedima.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACD,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,kBAAkB,EAAE,UAAU;EAC9B,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,IAAI;EACrB,eAAe,EAAE,IAAI;CACrB;;AACD,AAAA,IAAI,CAAA;EACA,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAO;CAO5B;;AATD,AAII,IAJA,CAIA,GAAG,CAAA;EACC,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,EAAE;CACjB",
+    "sources": [
+        "docgedima.scss"
+    ],
+    "names": [],
+    "file": "docgedima.css"
+}
