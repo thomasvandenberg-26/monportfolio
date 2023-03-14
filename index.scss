@@ -15,17 +15,20 @@ html {
 
 body {
 	width: 100%;
-	margin-bottom: 10%;
+	height: 100%;
+	
 	background-color: #121212;
-	margin-top: 1%;
+
 
 	#a_propos {
         position: absolute; 
+		width: 800px;
+		height: 500px;
 		margin-top: 5%;
 		margin-bottom: 5%;
 		margin-left: 12%;
 		background-color: #A5FFC9;
-		width: 35%;
+		
 		opacity: 70%;
 		border-radius: 15%;
 	
@@ -200,11 +203,11 @@ body {
 		margin-top: 60%;
 		.Louty {
 			position: absolute;
-			width: 40%;
+			width: 800px;
 			border-radius: 10%;
 			background-color: #0085B2;
 			margin-left: 5%;
-			height: 60%;
+			height: 600px;
 			opacity: 70%;
 			h2 {
 				font-family: "Hammersmith One";
@@ -247,7 +250,8 @@ body {
 			// }
 		}
 		.myprojectLouty {
-			width: 40%;
+			width: 800px;
+			height: 600px;
 			position: absolute;
 			background-color: #A5FFC9;
 			margin-left: 50%;
@@ -299,7 +303,8 @@ body {
 		
 	#GPA {
 		position: absolute;
-		width: 40%;
+		width: 800px;
+		height: 600px;
 		border-radius: 10%;
 		background-color: #A5FFC9;
 		margin-top: 40%;
@@ -350,7 +355,8 @@ body {
 		margin-top: 40%;
 		margin-left: 55%;
 		margin-bottom: 5%S;
-		width: 40%;
+		width: 800px;
+		height: 600px;;
 		position: absolute;
 		background-color: #0085B2;
 		border-radius: 60px;
@@ -428,7 +434,10 @@ body {
         }
 
     }
-        
+    #schemasprints{
+		img
+		{width: 2%;}
+	}
     }
 	#schema{
 		img{
@@ -442,7 +451,7 @@ body {
 		opacity: 70%;
 		width: 45%;
 		color: #A5FFC9;
-		margin-top: 30%;
+		margin-top: 10%;
 		margin-left: 28%;
 		background-color: #0085B2;
 		border-radius: 15%;
