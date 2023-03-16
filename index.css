@@ -290,7 +290,7 @@ body #stage2 #myprojectGPA {
   margin-left: 55%;
   margin-bottom: 5% S;
   width: 800px;
-  height: 600px;
+  height: 800px;
   position: absolute;
   background-color: #0085B2;
   border-radius: 60px;
@@ -492,7 +492,7 @@ body .btn2 {
   font-family: Roboto, sans-serif;
   font-weight: 0;
   font-size: 20px;
-  margin-top: 80%;
+  margin-top: 85%;
   left: 65%;
   color: #121212;
   font-weight: bold;
