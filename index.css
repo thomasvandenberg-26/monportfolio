@@ -423,7 +423,7 @@ body #gedimagination #jeu p {
 }
 
 body #gedimagination #schemasprints img {
-  width: 2%;
+  width: 200px;
 }
 
 body #schema img {
@@ -436,7 +436,7 @@ body #Veille {
   opacity: 70%;
   width: 45%;
   color: #A5FFC9;
-  height: 1400px;
+  height: 1100px;
   margin-top: 10%;
   margin-left: 28%;
   background-color: #0085B2;
@@ -484,7 +484,7 @@ body #Veille #logos #godotlogo {
 }
 
 body #Veille #textes {
-  margin-top: 15%;
+  margin-top: 7%;
   margin-bottom: 3%;
 }
 
@@ -507,7 +507,7 @@ body #Veille #textes p {
 
 body #Veille #textes img {
   margin-left: 22%;
-  width: 500px;
+  width: 400px;
 }
 
 body #Contact {
