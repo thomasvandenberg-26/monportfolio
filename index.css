@@ -517,10 +517,10 @@ body #babadesbois {
 
 body #Contact {
   position: absolute;
-  margin-left: 15%;
-  margin-top: 70%;
+  margin-top: 30%;
   background-color: #0085B2;
   margin-left: 35%;
+  margin-bottom: 50%;
   width: 30%;
   opacity: 70%;
   border-radius: 15%;
