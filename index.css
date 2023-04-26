@@ -436,6 +436,7 @@ body #schema img {
 }
 
 body #Veille {
+  position: absolute;
   opacity: 70%;
   width: 45%;
   color: #A5FFC9;
@@ -456,34 +457,35 @@ body #Veille h2 {
 }
 
 body #Veille #logos {
-  margin-left: 5%;
+  margin-top: 3%;
+  margin-left: 25%;
+}
+
+body #Veille #logos #godotlogo {
+  position: absolute;
+  width: 6%;
+  margin-left: 8%;
 }
 
 body #Veille #logos #oc {
   position: absolute;
-  width: 3%;
-  margin-left: 28%;
+  width: 6%;
+  margin-left: 17%;
   margin-top: 0.5%;
 }
 
 body #Veille #logos #yt {
   position: absolute;
-  width: 3%;
-  margin-left: 21%;
+  width: 6%;
+  margin-left: 25%;
   margin-top: 0.5%;
 }
 
 body #Veille #logos #cdg {
   position: absolute;
-  width: 3%;
-  margin-left: 15%;
+  width: 6%;
+  margin-left: 35%;
   margin-top: 0.5%;
-}
-
-body #Veille #logos #godotlogo {
-  position: absolute;
-  width: 4%;
-  margin-left: 9%;
 }
 
 body #Veille #textes {
@@ -508,17 +510,17 @@ body #Veille #textes p {
   margin-bottom: 2%;
 }
 
-body #Veille #textes img {
-  margin-left: 22%;
-  width: 400px;
+body #babadesbois {
+  position: absolute;
+  margin-left: 60%;
 }
 
 body #Contact {
+  position: absolute;
   margin-left: 15%;
-  margin-top: 3%;
+  margin-top: 70%;
   background-color: #0085B2;
   margin-left: 35%;
-  margin-top: 10%;
   width: 30%;
   opacity: 70%;
   border-radius: 15%;

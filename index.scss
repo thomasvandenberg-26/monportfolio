@@ -447,6 +447,7 @@ body {
 	}
 	
 	#Veille{
+		position: absolute;
 		opacity: 70%;
 		width: 45%;
 		color: #A5FFC9;
@@ -465,31 +466,33 @@ body {
 			margin-top: 6%;
 		}
 		#logos{
-			margin-left: 5%;
-	
+			margin-top: 3%;
+			margin-left: 25%;
+			#godotlogo{
+			    position: absolute;
+				width: 6%;
+				margin-left: 8%;
+			}
+			
 			#oc{
 				position: absolute; 
-				width: 3%; 
-				margin-left: 28%;
+				width: 6%; 
+				margin-left: 17%;
 				margin-top: 0.5%;
 			}
 			#yt{
 				position: absolute; 
-				width: 3%; 
-				margin-left: 21%;
+				width: 6%; 
+				margin-left: 25%;
 				margin-top: 0.5%;
 			}
 			#cdg{
 				position: absolute; 
-				width: 3%; 
-				margin-left: 15%;
+				width: 6%; 
+				margin-left: 35%;
 				margin-top: 0.5%;
 			}
-			#godotlogo{
-			    position: absolute;
-				width: 4%;
-				margin-left: 9%;
-			}
+			
 			}
 			#textes{
 				margin-top: 7%;
@@ -513,24 +516,24 @@ body {
 				}
 			
 				 
-					img{
-						margin-left: 22%;
-						width: 400px;
-					}
+					
 				 
 				}
 			}
 		
-	
+	#babadesbois{
+		position: absolute;
+		margin-left: 60%;
+	}
     
 	
     #Contact{
-		
+		position: absolute;
         margin-left: 15%;
-		margin-top: 3%;
+		margin-top: 70%;
 		background-color: #0085B2;
 		margin-left: 35%;
-		margin-top: 10%;
+	
 		width: 30%;
 		opacity: 70%;
 		border-radius: 15%;
